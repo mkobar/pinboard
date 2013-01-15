@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>TriplePulse.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="page2a_files/bootstrap.css" rel="stylesheet">
+    <link href="page2a_files/bootstrap-responsive.css" rel="stylesheet">
+    <link href="page2a_files/triplepulse.css" rel="stylesheet">
+    <style>
+    </style>
+    <script type="text/javascript" src="page2a_files/jquery.js"></script>
+    <script type="text/javascript" src="page2a_files/jquery_002.js"></script>
+    <script type="text/javascript" src="page2a_files/main.js"></script>
+    <script type="text/javascript">
+      function toggleRow(toHide){
+        var toShow = toHide=='first'?'second':'first';
+        toHide = $("#"+toHide+"Row");
+        toShow = $("#"+toShow+"Row");
+        //toHide.fadeOut(1000);
+        toHide.css('display','none');
+        toShow.fadeIn(1000);
+        toShow.css('display','block');
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <div style="position: relative; height: 0px;" id="pinterest" class="container-narrow masonry" onclick="javascript:load();"><div class="item"><img style="width: 250px; height: 250px;" src="page2a_files/stacks2.png"></div><div class="item"><img style="width: 350px; height: 250px;" src="page2a_files/stacks1.png"></div><div class="item"><img style="width: 250px; height: 350px;" src="page2a_files/stacks1.png"></div><div class="item"><img style="width: 350px; height: 250px;" src="page2a_files/stacks1.png"></div><div class="item"><img style="width: 250px; height: 250px;" src="page2a_files/stacks2.png"></div><div class="item"><img style="width: 250px; height: 350px;" src="page2a_files/stacks1.png"></div><div class="item"><img style="width: 250px; height: 250px;" src="page2a_files/stacks2.png"></div><div class="item"><img style="width: 350px; height: 250px;" src="page2a_files/stacks1.png"></div></div>
+  
+
+</body></html>
